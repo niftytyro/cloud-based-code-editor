@@ -117,7 +117,7 @@
         }
 
         code_input.addEventListener('keyup', function (event) {
-            if ((event.keyCode == 13) || (event.keyCode == 8)) {
+            if ((event.keyCode == 13) || (event.keyCode == 8) || (event.keyCode == 46)) {
                 autoResize();
                 updateRows();
             }
