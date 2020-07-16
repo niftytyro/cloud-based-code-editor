@@ -76,7 +76,7 @@ html, body {
     padding: 1rem 8px 1rem 15px;
     height: 100%;
     background: #333333;
-    width:70px;
+    width:50px;
     overflow-y: scroll;
 }
 .row-number-pane::-webkit-scrollbar {
