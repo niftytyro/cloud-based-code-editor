@@ -53,9 +53,10 @@
                                 // remove keyup handler from #output
                                 input.off("keyup");
                                 // resolve the promise with the value of the input field
-                                input.prop('disabled', true);
+                                input.prop('readonly', true);
                                 input.id = 'inactive-input';
-                                resolve(input.val());
+                                resolve('\n' + input.val() + '\n' + input.val());
+                                input.remove();
                             }
                         })
                     })
